@@ -1,0 +1,7 @@
+main: de.valendur.mc.ValendurMC
+name: ValendurMC
+author: Valendur
+version: 1.0.0
+commands:
+  example:
+    description: An example command...
