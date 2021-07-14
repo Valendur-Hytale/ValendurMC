@@ -11,7 +11,6 @@ public class ValendurMC extends JavaPlugin implements Listener {
 
 	private static ValendurMC plugin; 
 
-	PluginDescriptionFile pYML; 
 
 	@Override
 	public void onDisable() {
@@ -29,9 +28,7 @@ public class ValendurMC extends JavaPlugin implements Listener {
 
 		//this.getCommand("example").setExecutor(new ExampleCommand());
 		//pm.registerEvents(new ExampleListener(), this);
-
-		this.getLogger()
-				.info("Yay, " + this.pYML.getName() + " is now enabled!");
+		
 	}
 
 }
